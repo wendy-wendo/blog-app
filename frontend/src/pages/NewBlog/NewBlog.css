@@ -1,0 +1,45 @@
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container label {
+    display: block;
+}
+
+form {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+    box-shadow: 0 0 5px 5px gray;
+}
+
+form > input, form > textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+}
+
+form > button {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #000;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.title:hover {
+    color: blue;
+}
+
+.text-editor .ql-editor {
+    min-height: 200px;
+    max-height: 300px;
+    overflow-y: auto; 
+}

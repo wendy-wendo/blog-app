@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+}
+
+.container table {
+    border-collapse: collapse;
+    font-family: "Inter", sans-serif;
+    margin: 10px;
+}
+
+.container td, .container th {
+    border: 1px solid #ddd;
+}
+
+.container a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.container svg {
+    width: 30px;
+    height: 30px;
+}
+
+.edit:hover {
+    color: blue;
+}
+
+.delete:hover {
+    color: red;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+hr {
+    margin: 10px;
+}
+
+.profile button {
+    margin: 10px;
+    margin-left: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2586cc;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.profile button svg {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+}
+
+.profile a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}

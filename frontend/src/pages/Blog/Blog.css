@@ -1,0 +1,39 @@
+.blog-info {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background-color: #fff;
+    height: 70vh;
+    padding: 30px;
+    font-size: 1.5rem;
+    font-family: cursive;
+    box-shadow: 0 0 5px 5px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-info  h2 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.blog-info button {
+    width: 100px;
+    height: 60px;
+    margin-left: auto;
+    border: none;
+    background-color: rgb(38, 27, 182);
+}
+
+.blog-info button:hover {
+    box-shadow: 0 0 2px 2px gray;
+}
+
+.blog-info button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
